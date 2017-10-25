@@ -1,15 +1,25 @@
-$brown: #330000;
+// Variables
+//
+// Variables should follow the `$component-state-property-size` formula for
+// consistent naming. Ex: $nav-link-disabled-color and $modal-content-box-shadow-xs.
 
-$theme-colors: (
-  "primary":    $primary,
-  "secondary":  $secondary,
-  "success":    $success,
-  "info":       $info,
-  "warning":    $warning,
-  "danger":     $danger,
-  "light":      $light,
-  "dark":       $dark,
-  "brown": 		$brown
+
+//
+// Color system
+//
+
+// stylelint-disable
+$brown:    #330000;
+
+$colors: (
+  "brown":      $brown
+  
 );
 
-$link-color:                theme-color("brown"); 
+$theme-colors: (
+  "brown":      $brown
+);
+
+// Links
+
+$link-color: $brown;
