@@ -12,6 +12,7 @@
     <meta name="google" content="notranslate">
     <meta name="format-detection" content="telephone=no">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri() . '/' ?>style.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri() . '/' ?>css/font-awesome.min.css">
     <title>Home</title>
 </head>
 <body>
@@ -20,6 +21,17 @@
             <div class="row">
                 <div class="col-4">
                     <a class="navbar-brand" href="#"><img src="<?php echo get_template_directory_uri(). "/i/logo.png"  ?>" alt=""></a>
+                </div>
+                <div class="col-8">
+                    <div class="row">
+                        <div class="col">
+                            <a href="#"><i style="color:red" class="fa fa-envelope" aria-hidden="true"></i>kirov-komi-srub@mail.ru</a>
+                        </div>
+                        <div class="col"></div>
+                        <div class="col"></div>
+                    </div>
+                    <div class="row">    
+                    </div>
                 </div>
             </div>
         </nav>
