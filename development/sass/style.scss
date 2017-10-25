@@ -1,0 +1,21 @@
+/*!
+Theme Name: GulpTester
+*/
+
+@import "../node_modules/bootstrap/scss/bootstrap-reboot";
+@import "../node_modules/bootstrap/scss/bootstrap-grid";
+@import "../node_modules/bootstrap/scss/_utilities";
+@import "../node_modules/bootstrap/scss/_buttons";
+@import "../node_modules/bootstrap/scss/_alert";
+@import "../node_modules/bootstrap/scss/_badge";
+@import "../node_modules/bootstrap/scss/_tooltip";
+@import "../node_modules/bootstrap/scss/_transitions";
+
+
+
+body{
+	background-color: #bada55;
+	.jopaTest{
+		height: 100px;
+	}
+}
