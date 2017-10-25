@@ -15,7 +15,8 @@
     <title>Home</title>
 </head>
 <body>
-
+    aaaaa
+    dlpasdl
     <img src="<?php echo get_the_post_thumbnail_url() ?>" data-toggle="tooltip" data-placement="right" title="<?php the_title() ?>">
     <script src="<?php echo get_template_directory_uri() . '/' ?>js/main.js"></script>
 </body>
