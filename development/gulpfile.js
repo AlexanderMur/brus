@@ -41,12 +41,6 @@ gulp.task("js", function () {
 
 gulp.task("images", function () {
     gulp.src('i/*')
-        .pipe(imagemin({
-            optimizationLevel: 3,
-            progressive: true,
-            svgoPlugins: [{removeViewBox: false}],
-            interlaced: true
-        }))
         .pipe(gulp.dest('../i'));
 });
 
