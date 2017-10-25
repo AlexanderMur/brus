@@ -38,10 +38,24 @@ gulp.task("js", function () {
         .pipe(gulp.dest('../js'))
         .pipe(browserSync.reload({stream: true}));
 });
+
+gulp.task("images", function () {
+    gulp.src('i/*')
+        .pipe(imagemin({
+            optimizationLevel: 3,
+            progressive: true,
+            svgoPlugins: [{removeViewBox: false}],
+            interlaced: true
+        }))
+        .pipe(gulp.dest('../i'));
+});
+
+
 gulp.task('watch', function () {
 	gulp.watch('sass/*.scss', ['styles']);
 	gulp.watch('js/*.js', ['js']);
 	gulp.watch('../*.php').on('change', browserSync.reload);
+	gulp.watch('i/*',['images']);
 });
 console.log('sasl')
 gulp.task('default', ['browser-sync', 'watch']);
