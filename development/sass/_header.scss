@@ -2,11 +2,29 @@ header {
 	padding-top: 20px;
 	padding-bottom: 20px;
 	background-image: url("i/heder-bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 	font-family: 'harmoniasanspro';
 	font-size: 15px;
 
 	.fa {
-		color: red;
 		padding-right: 10px;
 	}
+
+	.phone-box {
+		color: $brown;
+		font-weight: bold;
+		font-size: 18px;
+		line-height: 20px;
+	}
+
 }
+
+.text-i {
+	color: $red;
+}
+
+.active .nav-link {
+	color: $red;
+	font-weight: bold;
+} 
