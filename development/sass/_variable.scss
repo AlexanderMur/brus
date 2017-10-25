@@ -1,7 +1,8 @@
 // Color system
 
-$brown:    #330000;
+$brown:    #330;
 $danger:   #ff0000;
+$red: #ff0000;
 
 $colors: (
   "brown":      $brown
@@ -15,3 +16,20 @@ $theme-colors: (
 // Links
 
 $link-color: $brown;
+
+// grid
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 960px,
+  xl: 965px
+);
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 965px
+);

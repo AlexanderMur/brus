@@ -8,13 +8,23 @@ header {
 	font-size: 15px;
 
 	.fa {
-		color: red;
 		padding-right: 10px;
 	}
 
 	.phone-box {
+		color: $brown;
 		font-weight: bold;
 		font-size: 18px;
 		line-height: 20px;
 	}
+
 }
+
+.text-i {
+	color: $red;
+}
+
+.active .nav-link {
+	color: $red;
+	font-weight: bold;
+} 
