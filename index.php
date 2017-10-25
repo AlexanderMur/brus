@@ -26,7 +26,7 @@
                 <div class="col-8">
                     <div class="row">
                         <div class="col">
-                            <a href="#"><i style="color:red" class="fa fa-envelope" aria-hidden="true"></i>kirov-komi-srub@mail.ru</a>
+                            <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i>kirov-komi-srub@mail.ru</a>
                         </div>
                         <div class="col"></div>
                         <div class="col"></div>
