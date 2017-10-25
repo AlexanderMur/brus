@@ -11,11 +11,4 @@ Theme Name: GulpTester
 @import "../node_modules/bootstrap/scss/_tooltip";
 @import "../node_modules/bootstrap/scss/_transitions";
 
-
-
-body{
-	background-color: #fff;
-	.jopaTest{
-		height: 100px;
-	}
-}
+@import "_header";

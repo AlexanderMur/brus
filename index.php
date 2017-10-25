@@ -15,8 +15,15 @@
     <title>Home</title>
 </head>
 <body>
-    <h1><?php the_title() ?></h1>
-    <img src="<?php echo get_the_post_thumbnail_url() ?>" data-toggle="tooltip" data-placement="right" title="<?php the_title() ?>">
+    <header class="container-fluid">
+        <nav class="container">
+            <div class="row">
+                <div class="col-4">
+                    <a class="navbar-brand" href="#"><img src="<?php echo get_template_directory_uri(). "/i/logo.png"  ?>" alt=""></a>
+                </div>
+            </div>
+        </nav>
+    </header>
     <script src="<?php echo get_template_directory_uri() . '/' ?>js/main.js"></script>
 </body>
 </html>
