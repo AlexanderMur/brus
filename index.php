@@ -73,6 +73,17 @@
             </div>           
         </div>
     </header>
+
+    <section class="container-fluid banner  d-flex align-items-center">
+        <div class="container banner-cont pl-0">
+            <h1 class="text">
+            Рубленные и оцилиндрованные 
+            дома и бани из Кировкой области 
+            для всей России
+            </h1>
+        </div>
+    </section>
+
     <script src="<?php echo get_template_directory_uri() . '/' ?>js/main.js"></script>
 </body>
 </html>

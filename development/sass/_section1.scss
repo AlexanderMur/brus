@@ -1,0 +1,29 @@
+.banner{
+	background-image: url('i/главная.jpg');
+	background-repeat: no-repeat;
+	height: 370px;
+	background-position: center;
+	
+	.banner-cont{
+		padding-right: 400px;
+	}
+
+	.text{
+		color: white;
+		font-size: 33.6px;
+		font-family: 'harmoniasanspro';
+		font-weight: bold;
+		position:relative;
+		display:inline;		
+		text-shadow: 1px 1.732px 7px rgb( 0, 0, 0 );
+	}
+	.text:after{
+		position:absolute;
+		left:0;
+		bottom:-10px;
+		width:100%;
+		border-bottom:2px solid #fff;
+		content:"";
+		box-shadow: 1px 1.732px 7px rgb( 0, 0, 0 );
+	}
+}
