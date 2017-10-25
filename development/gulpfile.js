@@ -12,7 +12,7 @@ var 	gulp			= require('gulp'),
 
 gulp.task('browser-sync', ['styles','js'], function() {
 		browserSync.init({
-			proxy: "http://localhost/wordpress/",
+			proxy: "magaz.ru",
 			notify: false,
 			open: false
 		});
