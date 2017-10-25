@@ -13,6 +13,7 @@
     <meta name="format-detection" content="telephone=no">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri() . '/' ?>style.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri() . '/' ?>css/font-awesome.min.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri() . '/' ?>font.css">
     <title>Home</title>
 </head>
 <body>

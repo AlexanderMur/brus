@@ -1,0 +1,27 @@
+@font-face{
+  font-family: 'harmoniasanspro';
+  src:  url('fonts/font/HarmoniaSansProCyr-Regular.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: 'harmoniasanspro';
+  src:  url('fonts/font/HarmoniaSansProCyr-BoldItalic.otf');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face{
+  font-family: 'harmoniasanspro';
+  src:  url('fonts/font/HarmoniaSansProCyr-Bold.otf');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: 'harmoniasanspro';
+  src:  url('fonts/font/HarmoniaSansProCyr-Italic.otf');
+  font-weight: normal;
+  font-style: italic;
+}
