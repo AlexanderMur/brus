@@ -12,13 +12,12 @@ var 	gulp			= require('gulp'),
 
 gulp.task('browser-sync', ['styles','js'], function() {
 		browserSync.init({
-			proxy: "magaz.ru",
+			proxy: "http://localhost/wordpress/",
 			notify: false,
 			open: false
 		});
 });
 
-console.log(require('node-bourbon').includePaths)
 gulp.task('styles', function () {
 	gulp.src('sass/*.scss')
 		.pipe(sass())
