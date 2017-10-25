@@ -8,14 +8,15 @@ var 	gulp			= require('gulp'),
     	plumber 	    = require("gulp-plumber"),
     	removeComments  = require('gulp-strip-css-comments'),
     	cssnano         = require("gulp-cssnano"),
-		uglify          = require('gulp-uglify');
+		uglify          = require('gulp-uglify'),
+		config 			= require('./config');
 
 gulp.task('browser-sync', ['styles','js'], function() {
-		browserSync.init({
-			proxy: "magaz.ru",
-			notify: false,
-			open: false
-		});
+	browserSync.init({
+		proxy: config.server,
+		notify: false,
+		open: false
+	});
 });
 
 gulp.task('styles', function () {
