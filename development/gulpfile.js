@@ -45,7 +45,6 @@ gulp.task("images", function () {
         .pipe(gulp.dest('../i'));
 });
 
-
 gulp.task('watch', function () {
 	gulp.watch(['sass/**/*.scss','node_modules/bootstrap/scss/*.scss'], ['styles']);
 	gulp.watch('js/*.js', ['js']);
