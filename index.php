@@ -61,7 +61,7 @@
                                   <li class="nav-item">
                                     <a class="nav-link" href="#">Контакты</a>
                                   </li>
-                                  <li>
+                                  <li class="nav-item">
                                     <a href=""><i class="text-i fa fa-search" aria-hidden="true"></i></a>
                                   </li>
                                 </ul>
@@ -73,7 +73,32 @@
             </div>           
         </div>
     </header>
-
+    <ul class="navbar">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Главная <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Проекты</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Производство</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Услуги</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Цены</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Фото работ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Контакты</a>
+        </li>
+        <li class="nav-item">
+          <a href=""><i class="text-i fa fa-search" aria-hidden="true"></i></a>
+        </li>
+    </ul>
     <section class="container-fluid banner  d-flex align-items-center">
         <div class="container banner-cont pl-0">
             <h1 class="text">
