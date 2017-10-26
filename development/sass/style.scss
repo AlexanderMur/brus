@@ -1,9 +1,10 @@
 /*!
 Theme Name: GulpTester
 */
-@import "_variable";
+@import "variable";
 @import "../node_modules/bootstrap/scss/bootstrap-reboot";
 @import "../node_modules/bootstrap/scss/bootstrap-grid";
+<<<<<<< HEAD
 @import "../node_modules/bootstrap/scss/_utilities";
 @import "../node_modules/bootstrap/scss/_buttons";
 @import "../node_modules/bootstrap/scss/_alert";
@@ -13,7 +14,18 @@ Theme Name: GulpTester
 @import "../node_modules/bootstrap/scss/_navbar";
 @import "../node_modules/bootstrap/scss/_nav";
 @import "../node_modules/bootstrap/scss/_type";
+=======
+@import "../node_modules/bootstrap/scss/utilities";
+@import "../node_modules/bootstrap/scss/buttons";
+@import "../node_modules/bootstrap/scss/alert";
+@import "../node_modules/bootstrap/scss/badge";
+@import "../node_modules/bootstrap/scss/tooltip";
+@import "../node_modules/bootstrap/scss/transitions";
+@import "../node_modules/bootstrap/scss/navbar";
+@import "../node_modules/bootstrap/scss/nav";
+@import "../node_modules/bootstrap/scss/type";
+>>>>>>> 2ae2828736b49c7d18c9c305cb7e730156b2bb9d
 
 
-@import "_header";
-@import "section1";
+@import "blocks/header";
+@import "blocks/section1";

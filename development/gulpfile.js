@@ -47,7 +47,7 @@ gulp.task("images", function () {
 
 
 gulp.task('watch', function () {
-	gulp.watch(['sass/*.scss','node_modules/bootstrap/scss/*.scss'], ['styles']);
+	gulp.watch(['sass/**/*.scss','node_modules/bootstrap/scss/*.scss'], ['styles']);
 	gulp.watch('js/*.js', ['js']);
 	gulp.watch('../*.php').on('change', browserSync.reload);
 	gulp.watch('i/*',['images']);
