@@ -27,4 +27,8 @@ header {
 .active .nav-link {
 	color: $red;
 	font-weight: bold;
-} 
+}
+
+.nav-item{
+	list-style: none;
+}
