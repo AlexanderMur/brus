@@ -1,5 +1,5 @@
 config = {
-	server: 'http://localhost/wordpress/'
+	server: 'magaz.ru'
 }
 
 module.exports = config
