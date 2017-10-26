@@ -21,7 +21,7 @@ gulp.task('browser-sync', ['styles','js'], function() {
 
 gulp.task('styles', function () {
 	gulp.src('sass/*.scss')
-		.pipe(sass())
+		.pipe(sass()).on('error',function(e){console.log('error !!1\n',e.message)})
 		.pipe(autoprefixer({browsers: ['last 15 versions'], cascade: false}))
 		.pipe(cleanCSS())
 		.pipe(gulp.dest('../'))
