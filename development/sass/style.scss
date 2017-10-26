@@ -4,6 +4,7 @@ Theme Name: GulpTester
 @import "variable";
 @import "../node_modules/bootstrap/scss/bootstrap-reboot";
 @import "../node_modules/bootstrap/scss/bootstrap-grid";
+
 @import "../node_modules/bootstrap/scss/utilities";
 @import "../node_modules/bootstrap/scss/buttons";
 @import "../node_modules/bootstrap/scss/alert";
@@ -16,3 +17,5 @@ Theme Name: GulpTester
 
 @import "blocks/header";
 @import "blocks/section1";
+@import "blocks/section2";
+@import "blocks/section3";
