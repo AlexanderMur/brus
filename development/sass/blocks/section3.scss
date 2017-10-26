@@ -1,0 +1,17 @@
+.bg-w {
+	background-color: #FFF;
+	background-image: none;
+}
+
+.card-dev {
+
+	.card-dev-text {
+		visibility: hidden;
+	}
+}
+
+.card-dev:hover {
+	.card-dev-text {
+		visibility: visible;
+	}
+}

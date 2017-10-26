@@ -80,6 +80,75 @@
         </div>
     </section>
 
+    <section class="container-fluid about-us text-center">
+        <h2 class="text-center">о нас</h2>
+        <ul class="advantage d-flex justify-content-center">
+            <li>надежность</li><i class="fa fa-circle" aria-hidden="true"></i>
+            <li>стабильность</li><i class="fa fa-circle" aria-hidden="true"></i>
+            <li>высокий результат</li>
+        </ul>
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col">
+                    <div class="card">
+                        <img class="card-img-top" src="<?php echo get_template_directory_uri(). "/i/card1.png"  ?>" alt="Card image cap">
+                        <p class="card-text">Более 10 лет<br> опыта работы<br>и заготовки леса</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img class="card-img-top" src="<?php echo get_template_directory_uri(). "/i/card2.png"  ?>" alt="Card image cap">
+                        <p class="card-text">Только высоко-<br>квалифицированные<br>специалисты</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img class="card-img-top" src="<?php echo get_template_directory_uri(). "/i/card3.png"  ?>" alt="Card image cap">
+                        <p class="card-text">Не пользуемся услугами<br>«шабашников» и<br>«гастробайтеров», только свои<br>штатные специалисты</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img class="card-img-top" src="<?php echo get_template_directory_uri(). "/i/card4.png"  ?>" alt="Card image cap">
+                        <p class="card-text">Работаем<br> без посредников</p>
+                    </div> 
+                </div>
+            </div>
+        </div>    
+    </section>
+    
+    <section class="container-fluid about-us bg-w text-center">
+        <h2 class="text-center">производим и реализуем</h2>
+        <ul class="advantage d-flex justify-content-center">
+            <li>подбор</li><i class="fa fa-circle" aria-hidden="true"></i>
+            <li>доставка</li><i class="fa fa-circle" aria-hidden="true"></i>
+            <li>монтаж</li><i class="fa fa-circle" aria-hidden="true"></i>
+            <li>обслуживание</li>
+        </ul>
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col">
+                    <div class="card-dev">
+                        <p class="card-dev-text">Имеем богатую базу материалов и собственное производство, поэтому можем предоставить любой пиломатериал для вас</p>
+                        <h3>срубы ручной рубки</h3>
+                    </div>
+                </div> 
+                <div class="col">
+                    <div class="card-dev">
+                        <p class="card-dev-text">Имеем богатую базу материалов и собственное производство, поэтому можем предоставить любой пиломатериал для вас</p>
+                        <h3>срубы ручной рубки</h3>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card-dev">
+                        <p class="card-dev-text">Имеем богатую базу материалов и собственное производство, поэтому можем предоставить любой пиломатериал для вас</p>
+                        <h3>срубы ручной рубки</h3>
+                    </div>
+                </div>
+            </div>            
+        </div>
+    </section>
+
     <script src="<?php echo get_template_directory_uri() . '/' ?>js/main.js"></script>
 </body>
 </html>

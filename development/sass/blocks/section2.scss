@@ -1,0 +1,64 @@
+.about-us {
+	height: 452px;
+	background-image: url("i/abou-us-bg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	h2 {
+		color: $brown;
+		font-weight: normal;
+		font-family: 'harmoniasanspro';
+	}
+}
+
+.advantage {
+	padding: 0;
+
+	* {
+		-webkit-align-self: center!important;
+		-ms-flex-item-align: center!important;
+		-ms-grid-row-align: center!important;
+		align-self: center!important;
+	}
+
+	li {
+		position: relative;
+		display: inline-block;
+		color: $red;
+		font-size: 15px;
+		font-weight: bold;
+		padding: 0 10px;
+		letter-spacing: 3px;
+
+	}
+
+	li:first-child {
+		padding-left: 0;
+	}
+
+	li:last-child {
+		padding-right: 0;
+	}
+
+	.fa {
+		color: $red;
+		font-size: 10px;
+	}
+
+}
+
+.card {
+	border: none;
+
+	.card-img-top {
+		height: 92px;
+		width: auto;
+		margin-bottom: 20px;
+	}
+
+	.card-text {
+		font-weight: bold;
+		font-size: 18px;
+		line-height: 23px;
+	}
+}
