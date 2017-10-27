@@ -178,6 +178,18 @@
             </div>            
         </div>
     </section>
+
+    <section class="container-fluid section4 pt-4 pb-4 mt-5">
+        <div class="container align-center">
+            <div class="section4-cont">
+                <h3>Вас заинтересовали наши проекты?</h3>
+                <p>Расскажите нам о ваших потребностях и мы проконсультируем вас, изготовим проект вашего дома 
+или подготовим необходимый пиломатериал. Напишите нам и мы ответим в ближайшее время.</p>
+                <a href="#" class="btn btn-danger">Отправить заявку</a>
+            </div>
+        </div>
+    </section>
+
     <section class="container-fluid about-us bg-w text-center about-us mt-5">
         <h2>этапы работы</h2>
         <ul class="advantage d-flex justify-content-center">
@@ -212,7 +224,7 @@
             </div>
         </div>       
     </section>
-
+    
     <script src="<?php echo get_template_directory_uri() . '/' ?>js/main.js"></script>
 </body>
 </html>
