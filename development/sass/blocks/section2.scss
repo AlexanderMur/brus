@@ -9,6 +9,11 @@
 		font-weight: normal;
 		font-family: 'harmoniasanspro';
 	}
+
+	a:hover {
+		color: darken($brown, 15%);
+		text-decoration: none;
+	}
 }
 
 .advantage {

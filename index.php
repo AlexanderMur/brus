@@ -178,6 +178,40 @@
             </div>            
         </div>
     </section>
+    <section class="container-fluid about-us bg-w text-center about-us mt-5">
+        <h2>этапы работы</h2>
+        <ul class="advantage d-flex justify-content-center">
+            <i class="fa fa-circle" aria-hidden="true"></i><li>полный спектр услуг</li><i class="fa fa-circle" aria-hidden="true"></i>
+        </ul>
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col">
+                    <div class="card">
+                        <img class="card-img-top" src="<?php echo get_template_directory_uri(). "/i/card8.png"  ?>" alt="Card image cap">
+                        <p class="card-text"><a href="#">Лесозаготовка</a></p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img class="card-img-top" src="<?php echo get_template_directory_uri(). "/i/card9.png"  ?>" alt="Card image cap">
+                        <p class="card-text"><a href="#">Разработка проекта</a></p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img class="card-img-top" src="<?php echo get_template_directory_uri(). "/i/card10.png"  ?>" alt="Card image cap">
+                        <p class="card-text"><a href="#">Изготовление сруба</a></p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img class="card-img-top" src="<?php echo get_template_directory_uri(). "/i/card11.png"  ?>" alt="Card image cap">
+                        <p class="card-text"><a href="#">Готовый проект</a></p>
+                    </div> 
+                </div>
+            </div>
+        </div>       
+    </section>
 
     <script src="<?php echo get_template_directory_uri() . '/' ?>js/main.js"></script>
 </body>
