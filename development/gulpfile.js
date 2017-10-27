@@ -41,7 +41,7 @@ gulp.task("js", function () {
 });
 
 gulp.task("images", function () {
-    gulp.src('i/*')
+    gulp.src(['i/*','!i/Thumbs.db'])
         .pipe(gulp.dest('../i'));
 });
 
